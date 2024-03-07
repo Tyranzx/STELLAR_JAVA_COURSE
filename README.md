@@ -16,6 +16,24 @@
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/ba39fd6d-0171-4c6a-8d1d-01bdfdb456d5)
 ### L'idea di questo "corso" é di iniziare a leggere documentazioni partendo da qui, saper leggere e saper interpretare individualmente questo linguaggio.
 
+# [❔] DIFFERENZE
+## [🐱‍👤] Scripts e skripts
+#### So che alcuni di voi avete sentito entrambe le parole e non sapete cosa siano. Ma é semplice spiegarlo.
+#### Uno "script" é in qualsiasi linguaggio che si eseguano comandi a livello di sistema, un mini "programa" che esegue delle istruzioni, normalmente comandi, che si eseguiranno automaticamnete una volta eseguito.
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/1aca26e1-8e7e-4c6d-811f-92afcc5f1aa2)
+#### "Skript" é un modo di creare plugins pe minecraft, non utilizzando blocchi specifici solamente istruzioni scritte direttamente.
+![PbfZ12M png 53c450eb3acf2e2e90e9baeaf2566fae](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/be55b7c8-e6af-4b65-b6b8-86fcbbbb307d)
+## [🧪] Asynchronous & Synchronous
+#### Bisogna capire la loro differenza, perché potrebbe essere utile durante un progetto in cui hai dei processi da rispettare o vuoi farlo contemporaneamente.
+#### Asynchronous é un modo di riferirsi a un processo **ISOLATO** dal processo principale del programa.
+#### Synchronous il contrario, é un processo dentro il processo principale del programa che si usa per dare prioritá a un processo prima di andare avanti col resto di istruzioni.
+#### A cosa servono? Non sempre ti sará richiesto di utilizzare entrambi, peró molto probabilmente avrai bisogno di processi "sync" che quelli "async", per il semplice fatto che, ripeto, "async" é un processo che si esegue insieme a quello principale del programa. Serve per evitare conflitti.
+## [🥕] Mods & Plugins (Minecraft)
+#### Se non vuoi capire java specificamente per minecraft, puoi tranquillamente saltare questa parte.
+#### Mods sono Mod-ificazioni del gioco, includendo textures nuove e logiche nuove. Utilizzando il motore forge normalmente.
+#### Plugins sono implementazioni per i server minecraft, utilizzando il motore di bukkit/spigot/paper per crearli.
+#### Mods sono implementazioni per il gioco, cose nuove fatte da 0 e i plugins sono implementazioni specificamente per il server, quindi niente di nuovo, partendo da una API (bukkit/spigot/paper) per crearli. 
+
 # [🌃] STRUTTURA DEL LINGUAGGIO
 #### Java in particolare ha una struttura curiosa, la quale potrebbe confondere a molte persone ma é importante che si sappia specificamente, alcuni concetti, possibilmente ovvi per alcuni, ma non per tutti.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/07083c16-526a-4230-ad63-2e89cdae9e85)
@@ -50,4 +68,5 @@
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c37c5d7e-f0cc-4914-9833-03135c05d222)
 #### Per utilizzare il metodo basta solo chiamarlo con il nome segnato:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c3d92aca-0397-4909-aa99-8d3d307ff82a)
+
 
