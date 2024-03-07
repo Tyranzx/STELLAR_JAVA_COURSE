@@ -48,4 +48,6 @@
 #### Il tipo di metodo piu conosciuto é "void" (vuoto), serve per fare un blocco, una scatola o detto correttamente, "un metodo", vuoto perche non deve ritornare nessun valore.
 #### I metodi void, essendo "vuoti" e senza dover ritornare nessun valore, servono di piu a eseguire un paio di istruzioni dentro il blocco. Peró la stessa cosa si possono fare con metodi di altri tipi, come String, solo che in questo caso, si potrebbe utilizzare per eseguire istruzioni ma deve per forza ritornare il valore richiesto, del metodo.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c37c5d7e-f0cc-4914-9833-03135c05d222)
+#### Per utilizzare il metodo basta solo chiamarlo con il nome segnato:
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c3d92aca-0397-4909-aa99-8d3d307ff82a)
 
