@@ -40,8 +40,14 @@
 #### Per esempio, in questo caso, "nome", contiene un paio di metodi da utilizzare come per esempio "equalsIgnoreCase", che serve per verificare se "nome", equivale a un valore.
 #### Questo contenuto di metodi da utilizzare dipende dal tipo di variabile, in questo caso, utilizzando "nome" vedremo metodi utilizzabili sempre per variabili di tipo String (di testo).
 #### Quindi qualsiasi metodo o variabile di tipo "String" avrá i suoi metodi da utilizzare. Una volta si crea un qualcosa di tipo String e lo si usa successivamente, si vedranno sempre metodi che ci saranno nella classe "String", quindi metodi per lavorare con questo valore di testo che abbiamo creato.
+### 👉 ,
+#### La virgola si usa per separare valori in una lista o metodo che richieda diversi parametri.
+### 👉 +
+#### Il "piú" serve per aggiungere valori, ovviamente bisogna metterli quando veramente ci servono, mettendoli nei posti giusti.
+#### Nel caso dovessimo fare una frase e poi aggiungere un valore o contenuto nuovo, bisogna metterlo sempre dopo le virgolette ".
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/5a699259-c4b3-4a21-9901-53b979406885)
 # [📦] Metodi
-
+#### 
 
 
 
