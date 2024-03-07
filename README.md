@@ -1,4 +1,4 @@
-# ☕ STELLAR_JAVA_COURSE 👨‍🎨
+# ☕ "Corso" di java | by StellarSquad 👨‍🎨
 
 ### Corso scritto & visuale, senza video possibilmente, di java fatto da StellarSquad.
 ### Qui vi daremo, il significato e utilizzo di vari concetti importanti da tener conto come differenze, soluzioni, ecc.
