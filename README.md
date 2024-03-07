@@ -22,6 +22,25 @@
 #### Cos'é un blocco? Da quel che ho capito io durante questi anni é che un blocco, a differenza di alcune punteggiature (che le vedremo dopo), servono ad aprire un insieme di "istruzioni" che solamente formeranno parte di questa parte del progetto in generale, ovvero, nell'esempio sopra, si apre un blocco, facendo riferimento al contenuto della classe. Come facciamo a saperlo? vedendo che il blocco inizia da quando si specifica che questa parte del progetto é la classe "public class".
 #### In parole povere, é la prima cosa che vedremo appena creeremo una classe. Bisogna fare attenzione a queste due parentesi una volta creata la classe, perche determina che tra l'inizio e la fine di questo blocco, ci sará il contenuto che appartiene appartiene a questa classe.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/91392769-47dd-478e-9390-e5404942c0b4)
-#### In questo caso, la variabile "nome" é dentro la classe, dentro il blocco. É l'unica cosa che bisogna ricordare, che per lavorare con java, serve partire da questo primo blocco.
+#### In questo caso, la variabile "nome" é dentro la classe, dentro il blocco. É l'unica cosa che bisogna ricordare, che per lavorare con java, serve partire da questo primo blocco della classe.
+# [📄] CLASSI
+#### Di un progetto, le classi sono le parti che lo compongono. Non é una buona pratica mettere tutto in unico file per creare un progetto, non solo per la mancanza d'ordine ma anche perche é una buona pratica separare per diverse categorie con diversi pacchetti (packages). 
+### Cos'é una classe?
+#### Semplice, é un file che contiene, logicamente contenuto di tipo "java" peró specificamente istruzioni (codici) che leggerá la macchina virtuale o server in cui metteremo il nostro prodotto finale, fatto in java.
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/386ed58c-469f-4f13-8197-6f7730dc1c21)
+# [;] Punteggiature
+#### La mia opinione personale é che le punteggiature sono una difficoltá che molti hanno evidentemente, perché é un linguaggio nuovo, con nuove strutture e diverse forme di lavorare. Ma bisogna impararle se veramente si vuole lavorare con java.
+### ;
+#### Il punto e virgola serve a chiudere una istruzione o comandamento mio. Con comandamenti intendiamo l'utilizzo di alcune utilitá o blocchi, metodi per esempio, che sono stati creati in passato. Quindi ";" serve anche per l'utilizzo di una piccola parte del contenuto della stessa classe. Con istruzioni intendiamo che per esempio, etichette o dette meglio "variabili" saranno dichiarate. Utilizzare "{" e "}" non é per niente il modo corretto di dichiarare una variabile.
+#### Infine , serve per chiudere una istruzione.
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/10488b7c-b081-4245-bc88-ebff02a04e9b)
+### .
+#### Il punto, serve per aprire una interfaccia di possibili metodi che l'etichetta possiede
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/5868230d-3363-490f-9961-d91b6ecfa56e)
+#### Per esempio, in questo caso, "nome", contiene un paio di metodi da utilizzare come per esempio "equalsIgnoreCase", che serve per verificare se "nome", equivale a un valore.
+#### Questo contenuto di metodi da utilizzare dipende dal tipo di variabile, in questo caso, utilizzando "nome" vedremo metodi utilizzabili sempre per variabili di tipo String (di testo).
+# [📦] Metodi
+
+
 
 
