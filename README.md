@@ -8,6 +8,12 @@
 ### Spero vi piaccia, cordiali saluti, Tyranzx | StellarSquad #1
 
 ![StellarSquadCourseJava (1)](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/71e33b28-60f9-4b70-9b6c-8cdb5ef2ef4a)
-#
-#
-# ❔ DIFFERENZE
+
+
+# [⚠] PRIMA DI INIZIARE
+## Vorrei chiarire prima di iniziare che cercheremo al massimo di spiegare tutto da vari punti di vista in modo da dare una risposta o contenuto ottimo alla compresione di tutti, esempi molto basici e chiari.
+## Se c'é la neccesitá di mettere piú esempi li meteremo, fateci sapere se vi servono piú informazioni o altro contattando su discord: Jessia#1557 o _jessx_
+
+# [🌃] STRUTTURA DEL LINGUAGGIO
+
+
