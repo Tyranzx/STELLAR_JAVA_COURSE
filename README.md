@@ -40,14 +40,11 @@
 #### Per esempio, in questo caso, "nome", contiene un paio di metodi da utilizzare come per esempio "equalsIgnoreCase", che serve per verificare se "nome", equivale a un valore.
 #### Questo contenuto di metodi da utilizzare dipende dal tipo di variabile, in questo caso, utilizzando "nome" vedremo metodi utilizzabili sempre per variabili di tipo String (di testo).
 #### Quindi qualsiasi metodo o variabile di tipo "String" avrá i suoi metodi da utilizzare. Una volta si crea un qualcosa di tipo String e lo si usa successivamente, si vedranno sempre metodi che ci saranno nella classe "String", quindi metodi per lavorare con questo valore di testo che abbiamo creato.
-### 👉 ,
-#### La virgola si usa per separare valori in una lista o metodo che richieda diversi parametri.
-### 👉 +
-#### Il "piú" serve per aggiungere valori, ovviamente bisogna metterli quando veramente ci servono, mettendoli nei posti giusti.
-#### Nel caso dovessimo fare una frase e poi aggiungere un valore o contenuto nuovo, bisogna metterlo sempre dopo le virgolette ".
-![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/5a699259-c4b3-4a21-9901-53b979406885)
 # [📦] Metodi
-#### 
-
-
+#### I metodi sono delle scatole, fatti come blocchi.
+#### Chiedo molta attenzione a questa cosa e di ricordare per sempre che i metodi si troveranno sempre dappertutto, in molti linguaggi, non solamente java, e servono per creare un blocco di istruzioni piccolo
+#### I metodi sono come delle scatole, che contengono codici che si eseguiranno una volta useremo il metodo.
+#### Il tipo di metodo piu conosciuto é "void" (vuoto), serve per fare un blocco, una scatola o detto correttamente, "un metodo", vuoto perche non deve ritornare nessun valore.
+#### I metodi void, essendo "vuoti" e senza dover ritornare nessun valore, servono di piu a eseguire un paio di istruzioni dentro il blocco. Peró la stessa cosa si possono fare con metodi di altri tipi, come String, solo che in questo caso, si potrebbe utilizzare per eseguire istruzioni ma deve per forza ritornare il valore richiesto, del metodo.
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c37c5d7e-f0cc-4914-9833-03135c05d222)
 
