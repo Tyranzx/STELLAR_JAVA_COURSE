@@ -33,7 +33,7 @@
 #### Mods sono Mod-ificazioni del gioco, includendo textures nuove e logiche nuove. Utilizzando il motore forge normalmente.
 #### Plugins sono implementazioni per i server minecraft, utilizzando il motore di bukkit/spigot/paper per crearli.
 #### Mods sono implementazioni per il gioco, cose nuove fatte da 0 e i plugins sono implementazioni specificamente per il server, quindi niente di nuovo, partendo da una API (bukkit/spigot/paper) per crearli. 
-
+#### In entrambi i settori, si utilizza java, che é la base, ovviamente, di minecraft.
 # [🌃] STRUTTURA DEL LINGUAGGIO
 #### Java in particolare ha una struttura curiosa, la quale potrebbe confondere a molte persone ma é importante che si sappia specificamente, alcuni concetti, possibilmente ovvi per alcuni, ma non per tutti.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/07083c16-526a-4230-ad63-2e89cdae9e85)
