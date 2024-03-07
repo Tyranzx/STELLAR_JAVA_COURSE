@@ -14,7 +14,7 @@
 ## Vorrei chiarire prima di iniziare che cercheremo al massimo di spiegare tutto da vari punti di vista in modo da dare una risposta o contenuto ottimo alla compresione di tutti, esempi molto basici e chiari.
 ## Se c'é la neccesitá di mettere piú esempi li meteremo, fateci sapere se vi servono piú informazioni o altro contattando su discord.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/ba39fd6d-0171-4c6a-8d1d-01bdfdb456d5)
-
+## L'idea di questo "corso" é di iniziare a leggere documentazioni partendo da qui, saper leggere e saper interpretare individualmente questo linguaggio.
 
 # [🌃] STRUTTURA DEL LINGUAGGIO
 
