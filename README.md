@@ -30,11 +30,11 @@
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/386ed58c-469f-4f13-8197-6f7730dc1c21)
 # [;] Punteggiature
 #### La mia opinione personale é che le punteggiature sono una difficoltá che molti hanno evidentemente, perché é un linguaggio nuovo, con nuove strutture e diverse forme di lavorare. Ma bisogna impararle se veramente si vuole lavorare con java.
-### ;
+### 👉 ;
 #### Il punto e virgola serve a chiudere una istruzione o comandamento mio. Con comandamenti intendiamo l'utilizzo di alcune utilitá o blocchi, metodi per esempio, che sono stati creati in passato. Quindi ";" serve anche per l'utilizzo di una piccola parte del contenuto della stessa classe. Con istruzioni intendiamo che per esempio, etichette o dette meglio "variabili" saranno dichiarate. Utilizzare "{" e "}" non é per niente il modo corretto di dichiarare una variabile.
 #### Infine , serve per chiudere una istruzione.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/10488b7c-b081-4245-bc88-ebff02a04e9b)
-### .
+### 👉 .
 #### Il punto, serve per aprire una interfaccia di possibili metodi che l'etichetta possiede
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/5868230d-3363-490f-9961-d91b6ecfa56e)
 #### Per esempio, in questo caso, "nome", contiene un paio di metodi da utilizzare come per esempio "equalsIgnoreCase", che serve per verificare se "nome", equivale a un valore.
