@@ -41,12 +41,12 @@
 #### Questo contenuto di metodi da utilizzare dipende dal tipo di variabile, in questo caso, utilizzando "nome" vedremo metodi utilizzabili sempre per variabili di tipo String (di testo).
 #### Quindi qualsiasi metodo o variabile di tipo "String" avrá i suoi metodi da utilizzare. Una volta si crea un qualcosa di tipo String e lo si usa successivamente, si vedranno sempre metodi che ci saranno nella classe "String", quindi metodi per lavorare con questo valore di testo che abbiamo creato.
 # [📦] Metodi
-#### I metodi sono delle scatole, fatti come blocchi.
 #### Chiedo molta attenzione a questa cosa e di ricordare per sempre che i metodi si troveranno sempre dappertutto, in molti linguaggi, non solamente java, e servono per creare un blocco di istruzioni piccolo.
-#### Lo si potrebbe trovare come "function" per esempio, in bash o javascript.
+#### Lo si potrebbe trovare come "function", per esempio, in bash o javascript.
 #### I metodi sono come delle scatole, che contengono codici che si eseguiranno una volta useremo il metodo.
 #### Il tipo di metodo piu conosciuto é "void" (vuoto), serve per fare un blocco, una scatola o detto correttamente, "un metodo", vuoto perche non deve ritornare nessun valore.
-#### I metodi void, essendo "vuoti" e senza dover ritornare nessun valore, servono di piu a eseguire un paio di istruzioni dentro il blocco. Peró la stessa cosa si possono fare con metodi di altri tipi, come String, solo che in questo caso, si potrebbe utilizzare per eseguire istruzioni ma deve per forza ritornare il valore richiesto, del metodo.
+#### Con "ritornare un valore" si intende che una volta si userá il metodo, deve ritornare un valore che noi stessi abbiamo dichiarato dentro il metodo.
+#### I metodi void, essendo "vuoti" e senza dover ritornare nessun valore, servono di piu ad eseguire un paio di istruzioni dentro il blocco. Peró la stessa cosa si possono fare con metodi di altri tipi, come per esempio String, che non solo serve a ritornare un valore di tipo testo, ma lo possiamo usare pure per mettere istruzioni, prima di ritornare il valore, peró per forza deve ridare il valore richiesto del metodo.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c37c5d7e-f0cc-4914-9833-03135c05d222)
 #### Per utilizzare il metodo basta solo chiamarlo con il nome segnato:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c3d92aca-0397-4909-aa99-8d3d307ff82a)
