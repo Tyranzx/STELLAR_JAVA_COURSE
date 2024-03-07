@@ -19,9 +19,9 @@
 # [❔] DIFFERENZE
 ## [🐱‍👤] Scripts e skripts
 #### So che alcuni di voi avete sentito entrambe le parole e non sapete cosa siano. Ma é semplice spiegarlo.
-#### Uno "script" é in qualsiasi linguaggio che si eseguano comandi a livello di sistema, un mini "programa" che esegue delle istruzioni, normalmente comandi, che si eseguiranno automaticamnete una volta eseguito.
+#### Uno "script" é un file che automatizza l'esecuzione di comandi a livello di sistema, bash o DOS, (linux o windows).
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/1aca26e1-8e7e-4c6d-811f-92afcc5f1aa2)
-#### "Skript" é un modo di creare plugins pe minecraft, non utilizzando blocchi specifici solamente istruzioni scritte direttamente.
+#### "Skript" é un modo di creare plugins per minecraft, non utilizzando blocchi specifici solamente istruzioni scritte direttamente.
 ![PbfZ12M png 53c450eb3acf2e2e90e9baeaf2566fae](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/be55b7c8-e6af-4b65-b6b8-86fcbbbb307d)
 ## [🧪] Asynchronous & Synchronous
 #### Bisogna capire la loro differenza, perché potrebbe essere utile durante un progetto in cui hai dei processi da rispettare o vuoi farlo contemporaneamente.
