@@ -17,5 +17,9 @@
 ### L'idea di questo "corso" é di iniziare a leggere documentazioni partendo da qui, saper leggere e saper interpretare individualmente questo linguaggio.
 
 # [🌃] STRUTTURA DEL LINGUAGGIO
+#### Java in particolare ha una struttura curiosa, la quale potrebbe confondere a molte persone ma é importante che si sappia specificamente, alcuni concetti, possibilmente ovvi per alcuni, ma non per tutti.
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/07083c16-526a-4230-ad63-2e89cdae9e85)
+#### Cos'é un blocco? Da quel che ho capito io durante questi anni é che un blocco, a differenza di alcune punteggiature (che le vedremo dopo), servono ad aprire un insieme di "istruzioni" che solamente formeranno parte di questa parte del progetto in generale, ovvero, nell'esempio sopra, si apre un blocco, facendo riferimento al contenuto della classe. Come facciamo a saperlo? vedendo che il blocco inizia da quando si specifica che questa parte del progetto é la classe.
+#### In parole povere, é la prima cosa che vedremo appena creeremo una classe. Bisogna fare attenzione a questi due parentesi una volta creata la classe, perche determina l'inizio e la fine di quello che appartiene a questa clase, quindi a questo blocco che fa parte di questa parte del progetto.
 
 
