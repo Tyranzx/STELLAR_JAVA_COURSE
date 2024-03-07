@@ -8,5 +8,6 @@
 ### Spero vi piaccia, cordiali saluti, Tyranzx | StellarSquad #1
 
 ![StellarSquadCourseJava (1)](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/71e33b28-60f9-4b70-9b6c-8cdb5ef2ef4a)
-
+#
+#
 # ❔ DIFFERENZE
