@@ -129,6 +129,28 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
   }
 ```
 #### Per utilizzare il metodo basta solo chiamarlo con il nome segnato:
-![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c3d92aca-0397-4909-aa99-8d3d307ff82a)
+```java
+  public class Prova { 
+
+   public static void main(String[] args){
+    mandarMessaggio();   // <- Si chiama il metodo.
+
+  /*
+  I progetti basi di java usano il metodo "main"
+  Una volta eseguito il programa, il progetto
+  eseguirá il metodo "main", in quest caso, una
+  volta eseguito, ci manderá il messaggio di
+    "Boonaaaséee."
+  */
+ 
+  }
+
+  static void mandarMessaggio(){
+    System.out.println("Boonaaaséee.");
+  }
+
+
+  }
+```
 
 
