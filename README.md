@@ -134,6 +134,11 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
 
    public static void main(String[] args){
     mandarMessaggio();   // <- Si chiama il metodo.
+  }
+
+  static void mandarMessaggio(){
+    System.out.println("Boonaaaséee.");
+  }
 
   /*
   I progetti basi di java usano il metodo "main"
@@ -143,13 +148,6 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
     "Boonaaaséee."
   */
  
-  }
-
-  static void mandarMessaggio(){
-    System.out.println("Boonaaaséee.");
-  }
-
-
   }
 ```
 
