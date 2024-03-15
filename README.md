@@ -34,6 +34,24 @@
 #### Plugins sono implementazioni per i server minecraft, utilizzando il motore di bukkit/spigot/paper per crearli.
 #### Mods sono implementazioni per il gioco, cose nuove fatte da 0 e i plugins sono implementazioni specificamente per il server, quindi niente di nuovo, partendo da una API (bukkit/spigot/paper) per crearli. 
 #### In entrambi i settori, si utilizza java, che é la base, ovviamente, di minecraft.
+## [🍃] Classi, interfacce, enum, variabili, metodi.
+### CLASSI: 
+#### Le classi sono dei file che contengono codice di tipo java. Sono i piccoli pezzi che formano il progetto
+### INTERFACCE:
+#### Le interfacce sono come delle classi, peró in questo si metteranno istruzioni, come regole, che verranno usate quando l'interfaccia viene implementata
+### VARIABILI:
+#### Le variabili sono delle etichette di tipi specifici. Questo non vuol dire non poterli creare senza un tipo (Lo vedrete piú avanti).
+#### Le variabili possono essere di tipo numerale, o scritto, ecc.
+#### Per esempio, una variabile di testo potrebbe chiamarsi "nome", questa variabile "di testo", deve contenere valore di tipo testo, ovvero, tra " "
+#### ES:  String nome = "Luca";
+### METODI
+#### I metodi sono come delle scatole che servono a riavere un valore o creare un blocco di istruzioni che si eseguiranno quando lo useremo.
+```java
+  public void metodoDiProva(){
+     System.out.println("Messaggio di prova");
+  }
+```
+#### Quando si userá "metodoDiProva", manderá il messaggio in console di "Messaggio di prova"
 # [🌃] STRUTTURA DEL LINGUAGGIO
 #### Java in particolare ha una struttura curiosa, la quale potrebbe confondere a molte persone ma é importante che si sappia specificamente, alcuni concetti, possibilmente ovvi per alcuni, ma non per tutti.
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/07083c16-526a-4230-ad63-2e89cdae9e85)
