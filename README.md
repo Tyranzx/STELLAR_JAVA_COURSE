@@ -83,7 +83,9 @@
 ### 👉 ;
 #### Il punto e virgola serve a chiudere una istruzione o comandamento mio. Con comandamenti intendiamo l'utilizzo di alcune utilitá o blocchi, metodi per esempio, che sono stati creati in passato. Quindi ";" serve anche per l'utilizzo di una piccola parte del contenuto della stessa classe. Con istruzioni intendiamo che per esempio, etichette o dette meglio "variabili" saranno dichiarate. Utilizzare "{" e "}" non é per niente il modo corretto di dichiarare una variabile.
 #### Infine , serve per chiudere una istruzione.
-![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/10488b7c-b081-4245-bc88-ebff02a04e9b)
+```java
+String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore, non é una sintassi corretta.
+```
 ### 👉 .
 #### Il punto, serve per aprire una interfaccia di possibili metodi che l'etichetta possiede
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/5868230d-3363-490f-9961-d91b6ecfa56e)
