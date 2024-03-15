@@ -111,7 +111,23 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
 #### Il tipo di metodo piu conosciuto é "void" (vuoto), serve per fare un blocco, una scatola o detto correttamente, "un metodo", vuoto perche non deve ritornare nessun valore.
 #### Con "ritornare un valore" si intende che una volta si userá il metodo, deve ritornare un valore che noi stessi abbiamo dichiarato dentro il metodo.
 #### I metodi void, essendo "vuoti" e senza dover ritornare nessun valore, servono di piu ad eseguire un paio di istruzioni dentro il blocco. Peró la stessa cosa si possono fare con metodi di altri tipi, come per esempio String, che non solo serve a ritornare un valore di tipo testo, ma lo possiamo usare pure per mettere istruzioni, prima di ritornare il valore, peró per forza deve ridare il valore richiesto del metodo.
-![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c37c5d7e-f0cc-4914-9833-03135c05d222)
+```java
+  public class Prova { 
+
+   void mandareMessaggio(){
+    System.out.println("Messaggio di prova");
+    // Essendo voi non deve ritornare nessun
+      // valore.
+  }
+
+  String ottenereNome(){
+    // Qui si puó eseguire una istruzione,
+    // ma ritornare sempre il valore dato.
+    return "Jess";
+  }  
+
+  }
+```
 #### Per utilizzare il metodo basta solo chiamarlo con il nome segnato:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/c3d92aca-0397-4909-aa99-8d3d307ff82a)
 
