@@ -66,11 +66,11 @@
 #### Cos'é un blocco? Da quel che ho capito io durante questi anni é che un blocco, a differenza di alcune punteggiature (che le vedremo dopo), servono ad aprire un insieme di "istruzioni" che solamente formeranno parte di questa parte del progetto in generale, ovvero, nell'esempio sopra, si apre un blocco, facendo riferimento al contenuto della classe. Come facciamo a saperlo? vedendo che il blocco inizia da quando si specifica che questa parte del progetto é la classe "public class".
 #### In parole povere, é la prima cosa che vedremo appena creeremo una classe. Bisogna fare attenzione a queste due parentesi una volta creata la classe, perche determina che tra l'inizio e la fine di questo blocco, ci sará il contenuto che appartiene appartiene a questa classe.
 ```java
-  public class Prova { // <- Inizio blocco - apertura classe
+  public class Prova {
 
-    String nome = "Jess";
+    String nome = "Jess"; // <- String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
 
-  } // <- Fine blocco - Chiusura classe
+  } 
 ```
 #### In questo caso, la variabile "nome" é dentro la classe, dentro il blocco. É l'unica cosa che bisogna ricordare, che per lavorare con java, serve partire da questo primo blocco della classe.
 # [📄] CLASSI
