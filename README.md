@@ -159,3 +159,4 @@ public void mandareMessaggio(String messaggio){ // <- Parametro di tipo String c
 }
 // Una volta usato il metodo, manderá il messaggio specificato.
 ```
+#### Argomenti e parametri son due cose diverse, stiamo attenti. I parametri sono input richiesti, mentre gli argomenti sono gli input che hanno una posizione specifica e non sempre vengono richiesti.
