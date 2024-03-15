@@ -150,5 +150,12 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
  
   }
 ```
-
-
+# [👤] Parametri in metodi
+#### I parametri nei metodi, sono come in qualsiasi linguaggio di programmazione o qualsiasi commandline, gli input (Dati che devi specificare tu) che i metodi hanno bisogno per potersi usare.
+### ES:
+```java
+public void mandareMessaggio(String messaggio){ // <- Parametro di tipo String chiamato "messaggio"
+  System.out.println(messaggio);  // <- Il metodo usa l'input che hai inserito.
+}
+// Una volta usato il metodo, manderá il messaggio specificato.
+```
