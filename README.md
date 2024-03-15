@@ -68,11 +68,23 @@
 ```java
   public class Prova {
 
-    String nome = "Jess"; // <- String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
+    String nome = "Jess";
+
+  // <- String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
 
   } 
 ```
 #### In questo caso, la variabile "nome" é dentro la classe, dentro il blocco. É l'unica cosa che bisogna ricordare, che per lavorare con java, serve partire da questo primo blocco della classe.
+#### I commenti: Parte del codice che non viene letta durante l'esecuzione del programa, plugin, ecc. I commenti servono o a lasciare un messaggio a colui che lavora con noi, o un messaggio per noi stessi per ricordare quello che stavamo facendo ieri o le idee che ci son venute in mente in quel momento che non avremo ricordato al momento:
+```java
+ // I commenti possono stare anche fuori dalla classe.
+  // Questo commento é di una sola linea
+asdasd // <- Errore
+/*
+I commenti possono aprirsi cosi
+e mantenere il blocco di commento.
+*/
+```
 # [📄] CLASSI
 #### Di un progetto, le classi sono le parti che lo compongono. Non é una buona pratica mettere tutto in unico file per creare un progetto, non solo per la mancanza d'ordine ma anche perche é una buona pratica separare per diverse categorie con diversi pacchetti (packages). 
 ### Cos'é una classe?
