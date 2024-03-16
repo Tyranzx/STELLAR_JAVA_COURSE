@@ -303,11 +303,12 @@ ArrayList<String> lista = new List<>();
 ```
 #### Perché "List" é una interfaccia, mentre ArrayList é una classe che implementa l'interfaccia "List".
 ## ❔ É importante utilizzare le Liste?
-#### Si, la lista precedente é di tipo "String", puó essere perfettamente una lista di un'altra cosa.
+### Si, la lista precedente é di tipo "String", puó essere perfettamente una lista di un'altra cosa.
 ## 🔴 ATTENZIONE: 
 ### Il valore specificato delle liste dev'essere di tipo wrapper.
 ### per esempio, una lista di "int" dev'essere scritta cosi:
 ```java
 List<Integer> lista = new ArrayList<>();
 ```
-
+### Peró, che differenza tra c'é tra LinkedList e ArrayList?
+#### ArrayList salva gli elementi in una lista ridimensionabile mentre LinkedList lo fa con nodi collegati, quindi molta piú flessibilitá. 
