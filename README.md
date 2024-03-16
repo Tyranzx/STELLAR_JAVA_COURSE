@@ -338,3 +338,31 @@ List<Integer> lista = new ArrayList<>();
 #### - Ottenere elemento di una posizione specifica
 #### - Verificare se la lista contiene un elemento
 #### - Aggiungere un sacco di elementi alla propria lista (normalmente da un'altra lista)
+## [🟩] Arrays delle variabili
+#### Le variabili possono essere crearsi come Arrays direttamente.
+### ES:
+```java
+String[] lista_nomi = new String[] { "Joshet18", "Jess", "Ira", "xHydra" };
+```
+#### Anche se a "lista_nomi" non abbiamo acceso completo, é comunque una lista che possiamo usare di un'altro modo.
+## [🎈] Iterator
+#### Serve per percorrere sequenzialmente gli elementi di una lista/collezione, utilizzando, delle liste, il metodo "iterator()".
+#### Per evitare conflitti di concorrenza, é importante utilizzare Iterator e/o altre tecniche.
+```java
+ public static void main(String[] args) {
+
+        ArrayList<String> lista = new ArrayList<>();
+        lista.add("Joshet18");
+        lista.add("Ira");
+        lista.add("xHydra");
+
+        Iterator<String> iterator = lista.iterator();
+
+        while (iterator.hasNext()) {
+// 	☝ Mentre    ☝ Iterator abbia un elemento successivo.
+            String elemento = iterator.next();  👈 Prendere il successivo.
+            System.out.println(elemento);  👈 Mostrare elemento in conbsole.
+        }
+    }
+
+```
