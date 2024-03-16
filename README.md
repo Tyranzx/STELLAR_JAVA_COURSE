@@ -351,7 +351,7 @@ String[] lista_nomi = new String[] { "Joshet18", "Jess", "Ira", "xHydra" };
 ```java
  public static void main(String[] args) {
 
-        ArrayList<String> lista = new ArrayList<>();
+        List<String> lista = new ArrayList<>();
         lista.add("Joshet18");
         lista.add("Ira");
         lista.add("xHydra");
@@ -360,8 +360,8 @@ String[] lista_nomi = new String[] { "Joshet18", "Jess", "Ira", "xHydra" };
 
         while (iterator.hasNext()) {
 // 	☝ Mentre    ☝ Iterator abbia un elemento successivo.
-            String elemento = iterator.next();  👈 Prendere il successivo.
-            System.out.println(elemento);  👈 Mostrare elemento in conbsole.
+            String elemento = iterator.next();  // 👈 Prendere il successivo.
+            System.out.println(elemento);  // 👈 Mostrare elemento in conbsole.
         }
     }
 
