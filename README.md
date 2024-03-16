@@ -175,7 +175,7 @@ System.out.println("Sono "+nome); // 👈 Utilizzo in un metodo.
  // *Risultato*: "Sono Jess"
 ```
 ## [🔢] INT
-#### Le variabili di tipo "int" sono numeri interi, servono a salvare o creare etichette con valori numerale specifici senza la virgola.
+#### Le variabili di tipo "int" sono numeri interi, servono a salvare o creare etichette con valori numerali specifici senza la virgola.
 ```java
 int anno = 2024; // 👈 Variabile di numerale chiamata "anno" che equivale a 2023.
 System.out.println("Oggi é l'anno "+anno); // 👈 Utilizzo in un metodo.
@@ -187,7 +187,7 @@ System.out.println("Oggi é l'anno "+anno); // 👈 Utilizzo in un metodo.
 ```java
 double eta = 18; // 👈 Variabile di decimale chiamata "etá" che equivale a 18.
 double soldi = 4.4;
-System.out.println("Ho "+eta+" anni e ho "+soldi+" euro (triste)."); // 👈 Utilizzo in un metodo.
+System.out.println("Ho " + eta + " anni e ho " + soldi + " euro (triste)."); // 👈 Utilizzo in un metodo.
 
  // *Risultato*: "Ho 18 anni e ho 4.4 euro".
 ```
@@ -210,9 +210,24 @@ public void aumentareEta_Metodo3(){
 
 public void aumentareEta_Metodo3(){
   eta = Math.addExact(eta, 1);
- // ☝ Utilizzando la classe "Math", possiamo aggiungere (add), esattamente
-   // la quantitá di "eta" + 1.
+ //     ☝ Utilizzando la classe "Math", possiamo aggiungere (add),
+ //           esattamente la quantitá di "eta" + 1.
 }
 ```
-
-
+## [🔢] FLOAT
+#### Le variabili di tipo float serve per rappresentare pure numeri decimali, ma adatti a diverse applicazioni.
+#### (!) Bisogna specificare la "f" alla fine perché lo prenda come "float".
+```java
+float temperatura = 25.5f;
+System.out.println("Oggi fanno " + temperatura + " gradi.");
+```
+## [🔢] LONG
+#### L'int ha un limite di numeri da specificare, Long in questo caso, serve a creare ed utilizzare variabili di tipo "int" molto piú lunghi.
+```java
+long valore = 12345678900L;
+System.out.println("Valore: " + valore);
+```
+####
+####
+####
+## [🔠] CHAR
