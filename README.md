@@ -55,13 +55,13 @@
 # [🌃] STRUTTURA DEL LINGUAGGIO
 #### Java in particolare ha una struttura curiosa, la quale potrebbe confondere a molte persone ma é importante che si sappia specificamente, alcuni concetti, possibilmente ovvi per alcuni, ma non per tutti.
 ```java
-  public class Prova { // <- Inizio blocco - apertura classe
+  public class Prova { // 👈 Inizio blocco - apertura classe
 
-    public static void main(String[] args){ <- Apertura metodo "main"
+    public static void main(String[] args){ 👈 Apertura metodo "main"
       System.out.println("Messaggio di prova.");
-    } // <- Chiusura del metodo "main"
+    } // 👈 Chiusura del metodo "main"
 
-  } // <- Fine blocco - Chiusura classe
+  } // <👈 Fine blocco - Chiusura classe
 ```
 #### Cos'é un blocco? Da quel che ho capito io durante questi anni é che un blocco, a differenza di alcune punteggiature (che le vedremo dopo), servono ad aprire un insieme di "istruzioni" che solamente formeranno parte di questa parte del progetto in generale, ovvero, nell'esempio sopra, si apre un blocco, facendo riferimento al contenuto della classe. Come facciamo a saperlo? vedendo che il blocco inizia da quando si specifica che questa parte del progetto é la classe "public class".
 #### In parole povere, é la prima cosa che vedremo appena creeremo una classe. Bisogna fare attenzione a queste due parentesi una volta creata la classe, perche determina che tra l'inizio e la fine di questo blocco, ci sará il contenuto che appartiene appartiene a questa classe.
@@ -70,7 +70,7 @@
 
     String nome = "Jess";
 
-  // <- String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
+  // 👈 String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
 
   } 
 ```
@@ -79,7 +79,7 @@
 ```java
  // I commenti possono stare anche fuori dalla classe.
   // Questo commento é di una sola linea
-asdasd // <- Errore
+asdasd // 👈 Errore
 /*
 I commenti possono aprirsi cosi
 e mantenere il blocco di commento.
@@ -96,7 +96,7 @@ e mantenere il blocco di commento.
 #### Il punto e virgola serve a chiudere una istruzione o comandamento mio. Con comandamenti intendiamo l'utilizzo di alcune utilitá o blocchi, metodi per esempio, che sono stati creati in passato. Quindi ";" serve anche per l'utilizzo di una piccola parte del contenuto della stessa classe. Con istruzioni intendiamo che per esempio, etichette o dette meglio "variabili" saranno dichiarate. Utilizzare "{" e "}" non é per niente il modo corretto di dichiarare una variabile.
 #### Infine , serve per chiudere una istruzione.
 ```java
-String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore, non é una sintassi corretta.
+String nome = "Jess";   // 👈 Con ; si dichiara la variabile. Con "{" dá errore, non é una sintassi corretta.
 ```
 ### 👉 .
 #### Il punto, serve per aprire una interfaccia di possibili metodi che l'etichetta possiede
@@ -133,7 +133,7 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
   public class Prova { 
 
    public static void main(String[] args){
-    mandarMessaggio();   // <- Si chiama il metodo.
+    mandarMessaggio();   // 👈 Cosi si chiama al metodo.
   }
 
   static void mandarMessaggio(){
@@ -155,8 +155,8 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
 ### ES:
 ```java
 public void mandareMessaggio(String messaggio){
-                             // ☝ Parametro di tipo String chiamato "messaggio"
-  System.out.println(messaggio);  // <- Il metodo usa l'input che hai inserito.
+//                           ☝ Parametro di tipo String chiamato "messaggio"
+  System.out.println(messaggio);  // 👈 Il metodo usa l'input che hai inserito.
 }
 // Una volta usato il metodo, manderá il messaggio specificato.
 ```
