@@ -312,3 +312,23 @@ List<Integer> lista = new ArrayList<>();
 ```
 ### Peró, che differenza tra c'é tra LinkedList e ArrayList?
 #### ArrayList salva gli elementi in una lista ridimensionabile mentre LinkedList lo fa con nodi collegati, quindi molta piú flessibilitá. 
+## ❔ A cosa potrei usare le liste?
+### Facciamo un esempio veloce, una lista di giocatori di qualsiasi modalitá in minecraft, di qualsiasi gioco, o piú semplice, una lista di invitati ad una festa di compleanno.
+### La lista ci serve ad avere un insieme di elementi, nel caso di minecraft, di giocatori, nel caso del compleanno e del resto di giochi, persone, con i quali interagire.
+```java
+	public static void main(String[] args) {
+		// Creazione della lista
+		List<String> giocatori = new ArrayList<>();
+
+    // aggiungere valori di tipo "String" nella lista
+		giocatori.add("Joshet18");
+		giocatori.add("Ira");
+		giocatori.add("Jess");
+		giocatori.add("xHydra");
+
+		System.out.println("Giocatori: ");
+		System.err.println(giocatori);
+	}
+```
+### Risultato:
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/a0cc9907-cc53-4674-b081-64ba2f8bb322)
