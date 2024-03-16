@@ -192,4 +192,27 @@ System.out.println("Ho "+eta+" anni e ho "+soldi+" euro (triste)."); // 👈 Uti
  // *Risultato*: "Ho 18 anni e ho 4.4 euro".
 ```
 
+### Alle variabili numerali, normalmente int e double, si possono aumentare con ++ e diminuore con --;
+```java
+int eta = 18; 
+
+public void aumentareEta_Metodo1(){
+  eta++; // 👈 Aumentare il valore di eta di 1
+}
+
+public void aumentareEta_Metodo2(){
+  eta = eta + 1; // 👈 Aumentare il valore di "eta" piú 1
+}
+
+public void aumentareEta_Metodo3(){
+  eta = eta+=1;
+}
+
+public void aumentareEta_Metodo3(){
+  eta = Math.addExact(eta, 1);
+ // ☝ Utilizzando la classe "Math", possiamo aggiungere (add), esattamente
+   // la quantitá di "eta" + 1.
+}
+```
+
 
