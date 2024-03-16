@@ -155,9 +155,39 @@ String nome = "Jess";   // 👈 Con ; si dichiara la variabile. Con "{" dá erro
 ### ES:
 ```java
 public void mandareMessaggio(String messaggio){
-//                           ☝ Parametro di tipo String chiamato "messaggio"
+//                           ☝ Parametro di tipo String chiamato "messaggio".
   System.out.println(messaggio);  // 👈 Il metodo usa l'input che hai inserito.
 }
 // Una volta usato il metodo, manderá il messaggio specificato.
 ```
 #### Argomenti e parametri son due cose diverse, stiamo attenti. I parametri sono input richiesti, mentre gli argomenti sono gli input che hanno una posizione specifica e non sempre vengono richiesti.
+####
+####
+####
+# [🎨] VARIABILI
+#### Le variabili sono etichette, ognuno di un tipo diverso. Per esempio, una variabile puó essere di testo e contenere un messaggio lungo, o un nome. Una variable per esempio puó essere pure un numero intero, quindi, un numero anche lungo, peró senza la virgola.
+## [🎫] STRING
+#### Le "string" sono variabili di testo, utili per creare password, messaggi lunghi o valori specifici di poche lettere e/o spazi da utilizzare.
+```java
+String nome = "Jess"; // 👈 Variabile di testo chiamata "nome" che contiene "Jess".
+System.out.println("Sono "+nome); // 👈 Utilizzo in un metodo.
+
+ // *Risultato*: "Sono Jess"
+```
+## [🔢] INT
+#### Le variabili di tipo "int" sono numeri interi, servono a salvare o creare etichette con valori numerale specifici senza la virgola.
+```java
+int anno = 2024; // 👈 Variabile di numerale chiamata "anno" che equivale a 2023.
+System.out.println("Oggi é l'anno "+anno); // 👈 Utilizzo in un metodo.
+ // *Risultato*: "Oggi é l'anno 2024"
+```
+## [🔢] DOUBLE
+#### Le variabili di tipo "double" sono numeri decimali, possono essere numeri con o senza la virgola.
+```java
+double eta = 18; // 👈 Variabile di decimale chiamata "etá" che equivale a 18.
+double soldi = 4.4;
+System.out.println("Ho "+eta+" anni e ho "+soldi+" euro (triste)."); // 👈 Utilizzo in un metodo.
+ // *Risultato*: "Ho 18 anni e ho 4.4 euro".
+```
+
+
