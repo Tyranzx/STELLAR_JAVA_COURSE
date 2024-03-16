@@ -435,6 +435,6 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/e3e1d088-7dce-4499-9cce-61381e97adc6)
 #### Ok ma, ho solo spiegato HashMap e quasi quasi "Map", il resto?
 #### Semplice: 
-#### LinkedHashMap fa la stessa cosa di LinkedList, nodi collegati.
-#### ConcurrentHashMap é opzionale, lo si puó usare per evitare errori di concorrenza (Quando una lista é giá utilizzata in un thread diverso).
-#### TreeMap é sempre HashMap, solo che ordinato in modo di albero, quindi elementi posizionati in ordine alfabetico
+	LinkedHashMap fa la stessa cosa di LinkedList, nodi collegati.
+	ConcurrentHashMap é opzionale, lo si puó usare per evitare errori di concorrenza (Quando una lista é giá utilizzata in un thread diverso).
+	TreeMap é sempre HashMap, solo che ordinato in modo di albero, quindi elementi posizionati in ordine alfabetico
