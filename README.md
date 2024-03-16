@@ -171,9 +171,9 @@ public void mandareMessaggio(String messaggio){
 ###
 ###
 ###
-# LIVELLO 1 [⭐]
+# [🎨] VARIABILI LIVELLO 1 [⭐]
 ###
-# [🎨] VARIABILI
+### 
 #### Le variabili sono etichette, ognuno di un tipo diverso. Per esempio, una variabile puó essere di testo e contenere un messaggio lungo, o un nome. Una variable per esempio puó essere pure un numero intero, quindi, un numero anche lungo, peró senza la virgola.
 ## [🎫] STRING
 #### Le "string" sono variabili di testo, utili per creare password, messaggi lunghi o valori specifici di poche lettere e/o spazi da utilizzare.
