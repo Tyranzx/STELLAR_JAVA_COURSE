@@ -179,6 +179,7 @@ System.out.println("Sono "+nome); // 👈 Utilizzo in un metodo.
 ```java
 int anno = 2024; // 👈 Variabile di numerale chiamata "anno" che equivale a 2023.
 System.out.println("Oggi é l'anno "+anno); // 👈 Utilizzo in un metodo.
+
  // *Risultato*: "Oggi é l'anno 2024"
 ```
 ## [🔢] DOUBLE
@@ -187,6 +188,7 @@ System.out.println("Oggi é l'anno "+anno); // 👈 Utilizzo in un metodo.
 double eta = 18; // 👈 Variabile di decimale chiamata "etá" che equivale a 18.
 double soldi = 4.4;
 System.out.println("Ho "+eta+" anni e ho "+soldi+" euro (triste)."); // 👈 Utilizzo in un metodo.
+
  // *Risultato*: "Ho 18 anni e ho 4.4 euro".
 ```
 
