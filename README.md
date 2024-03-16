@@ -320,7 +320,7 @@ List<Integer> lista = new ArrayList<>();
 		// Creazione della lista
 		List<String> giocatori = new ArrayList<>();
 
-    // aggiungere valori di tipo "String" nella lista
+  		// aggiungere valori di tipo "String" nella lista
 		giocatori.add("Joshet18");
 		giocatori.add("Ira");
 		giocatori.add("Jess");
@@ -332,3 +332,9 @@ List<Integer> lista = new ArrayList<>();
 ```
 ### Risultato:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/a0cc9907-cc53-4674-b081-64ba2f8bb322)
+### Possibili metodi da usare:
+#### - Aggiungere
+#### - Rimuovere
+#### - Ottenere elemento di una posizione specifica
+#### - Verificare se la lista contiene un elemento
+#### - Aggiungere un sacco di elementi alla propria lista (normalmente da un'altra lista)
