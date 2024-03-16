@@ -231,3 +231,10 @@ System.out.println("Valore: " + valore);
 ####
 ####
 ## [🔠] CHAR
+#### (!) A differenza di String, char é una variabile che lavora specificamente con un unico carattere.
+#### (!) A differenza di String, i char bisogna specificarli tra ' ' e non tra " ".
+```java
+char lettera_A = 'a';
+System.out.println("Risultato: " + lettera_A);
+```
+#### É importante utilizzare char? Si ma pochissimo, lo si potrebbe usare, come qualsiasi altra variabile, come mezzo per differenziare tra categorie.
