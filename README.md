@@ -296,9 +296,10 @@ Integer numero_massimo2 = Integer.MAX_VALUE;
 ```java
 List<String> lista = new ArrayList<>();
 ```
-## 🔴 Perché non:
+## 🔴 ATTENZIONE:
+### Dobbiamo stare attenti al creare le liste cosi.
 ```java
-List<String> lista = new ArrayList<>();
+ArrayList<String> lista = new List<>();
 ```
 #### Perché "List" é una interfaccia, mentre ArrayList é una classe che implementa l'interfaccia "List".
 ### É importante utilizzare le Liste?
