@@ -383,7 +383,7 @@ public static void main(String[] args) {
 	// 👇 Con sort, possiamo ordinare il nostro array.
         Arrays.sort(array);
 
-	// 👇 Con binarySearchm, possiamo trovare l'index (posizione)
+	// 👇 Con binarySearch, possiamo trovare l'index (posizione)
    		// del nostro numero "3", in questo caso, il suo index
 			// é 1, ma quando ordiniamo la lista, é 2.
         int index = Arrays.binarySearch(array, 3);
