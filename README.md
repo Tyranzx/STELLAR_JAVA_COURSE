@@ -410,11 +410,11 @@ List<String> lista = new ArrayList<>(Arrays.asList("Joshet18", "Jess"));
 Map<String, Boolean> in_combattimento = new HashMap<>();
 ```
 ### Possibili metodi da usare:
-	- Verificare se una chiave esiste
-	- Prendere chiave (Otteniamo il suo valore)
-	- Prendere valore
-	- Verificare se l'HashMap
-	- Mettere un valore ad una chiave
+	- Verificare se una chiave esiste.
+	- Prendere chiave (Otteniamo il suo valore).
+	- Prendere valore.
+	- Verificare se l'HashMap é vuoto o no.
+	- Mettere un valore ad una chiave.
 	- Mettere un valore ad una chiave, solo se non esiste e viceversa.
 	- Ottenere, tramite iterazione, tutte le chiavi e/o valori.
 ### ES:
@@ -433,4 +433,8 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
 ```
 ### RISULTATO:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/e3e1d088-7dce-4499-9cce-61381e97adc6)
-
+#### Ok ma, ho solo spiegato HashMap e quasi quasi "Map", il resto?
+#### Semplice: 
+#### LinkedHashMap fa la stessa cosa di LinkedList, nodi collegati.
+#### ConcurrentHashMap é opzionale, lo si puó usare per evitare errori di concorrenza (Quando una lista é giá utilizzata in un thread diverso).
+#### TreeMap é sempre HashMap, solo che ordinato in modo di albero, quindi elementi posizionati in ordine alfabetico
