@@ -317,10 +317,10 @@ List<Integer> lista = new ArrayList<>();
 ### La lista ci serve ad avere un insieme di elementi, nel caso di minecraft, di giocatori, nel caso del compleanno e del resto di giochi, persone, con i quali interagire.
 ```java
 	public static void main(String[] args) {
-		// Creazione della lista
+		// 👇 Creazione della lista
 		List<String> giocatori = new ArrayList<>();
 
-  		// aggiungere valori di tipo "String" nella lista
+  		// 👇 Aggiungere valori di tipo "String" nella lista
 		giocatori.add("Joshet18");
 		giocatori.add("Ira");
 		giocatori.add("Jess");
@@ -431,7 +431,7 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
     	System.err.println("Etá di Jess é " + eta_persone.get("Jess"));	
     }
 ```
-### RISULTATO:
+### Risultato:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/e3e1d088-7dce-4499-9cce-61381e97adc6)
 #### Ok ma, é stato solo spiegato HashMap e Map, e il resto?
 #### Semplice: 
