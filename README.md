@@ -280,6 +280,7 @@ Boolean = Wrapper
 
 double = etichetta
 Double = Wrapper
+*/
 ```
 #### Qui capiamo l'importanza delle maiuscole.
 ### Come si usano? o a cosa servono?
