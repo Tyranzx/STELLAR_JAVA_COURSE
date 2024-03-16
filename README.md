@@ -369,3 +369,26 @@ String[] lista_nomi = new String[] { "Joshet18", "Jess", "Ira", "xHydra" };
     }
 
 ```
+## [📎] Arrays
+#### Menzionato prima ma non si é capito. Gli arrays sono un gruppo (?) di elementi dello stesso tipo.
+#### La classe "Arrays" offre metodi per ordinare, paragonare, cercare e riempire questo nostro insieme di elementi.
+```java
+public static void main(String[] args) {
+
+        int[] array = {5, 3, 8, 1, 2}; // 👈 Array di tipo int
+
+	// 👇 Con sort, possiamo ordinare il nostro array.
+        Arrays.sort(array);
+
+	// 👇 Con binarySearchm, possiamo trovare l'index (posizione)
+   		// del nostro numero "3", in questo caso, il suo index
+			// é 1, ma quando ordiniamo la lista, é 2.
+        int index = Arrays.binarySearch(array, 3);
+
+    }
+```
+#### Nell'esempio precedente insegnava solo due metodi tra tanti che possiamo usare per lavorare con "Arrays".
+#### "Arrays" peró lo si puó usare anche con List ed ArrayList
+```java
+List<String> lista = new ArrayList<>(Arrays.asList("Joshet18", "Jess"));
+```
