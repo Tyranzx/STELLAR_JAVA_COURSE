@@ -360,10 +360,10 @@ String[] lista_nomi = new String[] { "Joshet18", "Jess", "Ira", "xHydra" };
         Iterator<String> iterator = lista.iterator();
 
         while (iterator.hasNext()) {
-// 	☝ Mentre    ☝ Iterator abbia un elemento successivo.
+// 	☝ Mentre  ☝ La sua iterazione abbia un elemento successivo.
 
-            String elemento = iterator.next();  // 👈 Prendere il successivo.
-            System.out.println(elemento);  // 👈 Mostrare elemento in conbsole.
+            String elemento = iterator.next();  // 👈 Salvare il successivo.
+            System.out.println(elemento);  // 👈 Mostrare elemento salvato in conbsole.
 
         }
     }
