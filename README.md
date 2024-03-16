@@ -237,4 +237,17 @@ System.out.println("Valore: " + valore);
 char lettera_A = 'a';
 System.out.println("Risultato: " + lettera_A);
 ```
-#### É importante utilizzare char? Si ma pochissimo, lo si potrebbe usare, come qualsiasi altra variabile, come mezzo per differenziare tra categorie.
+### É importante utilizzare char?
+#### Si ma pochissimo, lo si potrebbe usare, come qualsiasi altra variabile, come mezzo per differenziare tra categorie.
+## [🔠] BOOLEAN
+#### Se mai dovessimo fare una variabile che ci permetta di sapere "se si" o "se no", possiamo utilizzare boolean.
+#### So che l'esempio precedente di boolean non é chiaro, ma facciamo un altro esempio.
+#### Pensiamo ad una partita delle Bedwars, o anche di calcio: Un boolean potrebbe servire a dire se la partita é iniziata o meno.
+```java
+boolean partita_iniziata = true;
+System.out.println("Partita iniziata?: " + partita_iniziata);
+
+*RISULTATO*:  "Partita iniziata?: true"
+```
+### É importante utilizzare boolean?
+#### Assolutamente si, accompagnato da altre variabili, per esempio HashMap (Lo vedremo piú avanti) é utile, poiché lavori con valori di "vero" e "falso" per sapere che azioni prendere certe volte.
