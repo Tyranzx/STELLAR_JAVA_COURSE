@@ -271,7 +271,6 @@ System.out.println("Partita iniziata?: " + partita_iniziata);
 #### Semplice, perche alcune variabili, di quelle colorate (in rosa su Eclipse | in arancione in IntelliJ IDEA), sono solo etichette ma non classi.
 #### Con le classi "wrapper" intendiamo le classi di queste etichette.
 ```java
-/*
 int = etichetta
 Integer = Wrapper
 
@@ -280,7 +279,6 @@ Boolean = Wrapper
 
 double = etichetta
 Double = Wrapper
-*/
 ```
 #### Qui capiamo l'importanza delle maiuscole.
 ### Come si usano? o a cosa servono?
