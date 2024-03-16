@@ -173,8 +173,8 @@ public void mandareMessaggio(String messaggio){
 ###
 # [🎨] VARIABILI LIVELLO 1 [⭐]
 ###
-### 
 #### Le variabili sono etichette, ognuno di un tipo diverso. Per esempio, una variabile puó essere di testo e contenere un messaggio lungo, o un nome. Una variable per esempio puó essere pure un numero intero, quindi, un numero anche lungo, peró senza la virgola.
+### 
 ## [🎫] STRING
 #### Le "string" sono variabili di testo, utili per creare password, messaggi lunghi o valori specifici di poche lettere e/o spazi da utilizzare.
 ```java
@@ -260,3 +260,34 @@ System.out.println("Partita iniziata?: " + partita_iniziata);
 ```
 ### É importante utilizzare boolean?
 #### Assolutamente si, accompagnato da altre variabili, per esempio HashMap (Lo vedremo piú avanti) é utile, poiché lavori con valori di "vero" e "falso" per sapere che azioni prendere certe volte.
+###
+###
+###
+# [🎲] VARIABILI LIVELLO 2 [⭐⭐]
+###
+### Classi Wrapper
+#### Una volta capiamo come si usano certe variabili del livello 1, ci chiediamo, ma perche certe variabili non hanno metodi? 
+#### Perché quando metto il punto per aprire il menu di interazione non c'é niente?
+#### Semplice, perche alcune variabili, di quelle colorate (in rosa su Eclipse | in arancione in IntelliJ IDEA), sono solo etichette ma non classi.
+#### Con le classi "wrapper" intendiamo le classi di queste etichette.
+```java
+/*
+int = etichetta
+Integer = Wrapper
+
+boolean = etichetta
+Boolean = Wrapper
+
+double = etichetta
+Double = Wrapper
+```
+#### Qui capiamo l'importanza delle maiuscole.
+### Come si usano? o a cosa servono?
+#### Si usano dello stesso modo, solo che bisogna capire che servono ad avere piú opzioni.
+#### Un esempio é, Integer, ha un valore massimo, possiamo chiararlo ad un int.
+```java
+	int numero_massimo = Integer.MAX_VALUE;
+	Integer numero_massimo2 = Integer.MAX_VALUE;
+// Entrambi contengono la stessa cosa, fatti in modo diversi.
+// Uno con etichetta e l'altro con la sua classe wrapper.
+```
