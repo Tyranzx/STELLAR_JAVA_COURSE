@@ -265,7 +265,7 @@ System.out.println("Partita iniziata?: " + partita_iniziata);
 ###
 # [🎲] VARIABILI LIVELLO 2 [⭐⭐]
 ###
-### Classi Wrapper
+## [🧨] Classi Wrapper
 #### Una volta capiamo come si usano certe variabili del livello 1, ci chiediamo, ma perche certe variabili non hanno metodi? 
 #### Perché quando metto il punto per aprire il menu di interazione non c'é niente?
 #### Semplice, perche alcune variabili, di quelle colorate (in rosa su Eclipse | in arancione in IntelliJ IDEA), sono solo etichette ma non classi.
@@ -285,8 +285,28 @@ Double = Wrapper
 #### Si usano dello stesso modo, solo che bisogna capire che servono ad avere piú opzioni.
 #### Un esempio é, Integer, ha un valore massimo, possiamo chiararlo ad un int.
 ```java
-	int numero_massimo = Integer.MAX_VALUE;
-	Integer numero_massimo2 = Integer.MAX_VALUE;
+int numero_massimo = Integer.MAX_VALUE;
+Integer numero_massimo2 = Integer.MAX_VALUE;
 // Entrambi contengono la stessa cosa, fatti in modo diversi.
 // Uno con etichetta e l'altro con la sua classe wrapper.
 ```
+## [👨‍👩‍👧‍👦] List / ArrayList / LinkedList
+#### Le variabili di tipo "List" sono letteralmente liste, quindi pure LinkedList e ArrayList.
+#### Per creare una lista, bisogna specificarlo cosi:
+```java
+List<String> lista = new ArrayList<>();
+```
+## 🔴 Perché non:
+```java
+List<String> lista = new ArrayList<>();
+```
+#### Perché "List" é una interfaccia, mentre ArrayList é una classe che implementa l'interfaccia "List".
+### É importante utilizzare le Liste?
+#### Si, la lista precedente é di tipo "String", puó essere perfettamente una lista di un'altra cosa.
+## 🔴 ATTENZIONE: 
+### Il valore specificato delle liste dev'essere di tipo wrapper.
+### per esempio, una lista di "int" dev'essere scritta cosi:
+```java
+List<Integer> lista = new ArrayList<>();
+```
+
