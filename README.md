@@ -155,7 +155,7 @@ String nome = "Jess";   // <- Con ; si dichiara la variabile. Con "{" dá errore
 ### ES:
 ```java
 public void mandareMessaggio(String messaggio){
- // ☝ Parametro di tipo String chiamato "messaggio"
+                             // ☝ Parametro di tipo String chiamato "messaggio"
   System.out.println(messaggio);  // <- Il metodo usa l'input che hai inserito.
 }
 // Una volta usato il metodo, manderá il messaggio specificato.
