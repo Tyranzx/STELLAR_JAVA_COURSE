@@ -162,8 +162,13 @@ public void mandareMessaggio(String messaggio){
 ```
 #### Argomenti e parametri son due cose diverse, stiamo attenti. I parametri sono input richiesti, mentre gli argomenti sono gli input che hanno una posizione specifica e non sempre vengono richiesti.
 ####
+## 🔴 Le variabili saranno separate per livelli
+### Livello 1: Variabili semplici e comuni.
+### Livello 2: Variabili utili e consigliati.
+### Livello 3: Variabili poco usate ma utili.
 ####
 ####
+# LIVELLO 1
 # [🎨] VARIABILI
 #### Le variabili sono etichette, ognuno di un tipo diverso. Per esempio, una variabile puó essere di testo e contenere un messaggio lungo, o un nome. Una variable per esempio puó essere pure un numero intero, quindi, un numero anche lungo, peró senza la virgola.
 ## [🎫] STRING
