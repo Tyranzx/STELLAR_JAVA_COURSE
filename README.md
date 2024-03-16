@@ -432,6 +432,9 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
     }
 ```
 ### Risultato:
+```dos
+Etá di Jess é 18
+```
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/e3e1d088-7dce-4499-9cce-61381e97adc6)
 #### Ok ma, é stato solo spiegato HashMap e Map, e il resto?
 #### Semplice: 
