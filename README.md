@@ -411,12 +411,12 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
 ```
 ### Possibili metodi da usare:
 	- Verificare se una chiave esiste
- 	- Prendere chiave (Otteniamo il suo valore)
-  	- Prendere valore
-   	- Verificare se l'HashMap
-    	- Mettere un valore ad una chiave
-     	- Mettere un valore ad una chiave, solo se non esiste e viceversa.
-        - Ottenere, tramite iterazione, tutte le chiavi e/o valori.
+	- Prendere chiave (Otteniamo il suo valore)
+	- Prendere valore
+	- Verificare se l'HashMap
+	- Mettere un valore ad una chiave
+	- Mettere un valore ad una chiave, solo se non esiste e viceversa.
+	- Ottenere, tramite iterazione, tutte le chiavi e/o valori.
 ### ES:
 ```java
     public static void main(String[] args) {
