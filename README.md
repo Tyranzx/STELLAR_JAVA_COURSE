@@ -333,11 +333,11 @@ List<Integer> lista = new ArrayList<>();
 ### Risultato:
 ![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/a0cc9907-cc53-4674-b081-64ba2f8bb322)
 ### Possibili metodi da usare:
-#### - Aggiungere
-#### - Rimuovere
-#### - Ottenere elemento di una posizione specifica
-#### - Verificare se la lista contiene un elemento
-#### - Aggiungere un sacco di elementi alla propria lista (normalmente da un'altra lista)
+	- Aggiungere
+	- Rimuovere
+	- Ottenere elemento di una posizione specifica
+	- Verificare se la lista contiene un elemento
+	- Aggiungere un sacco di elementi alla propria lista (normalmente da un'altra lista)
 ## [🟩] Arrays delle variabili
 #### Le variabili possono essere crearsi come Arrays direttamente.
 ### ES:
@@ -392,3 +392,45 @@ public static void main(String[] args) {
 ```java
 List<String> lista = new ArrayList<>(Arrays.asList("Joshet18", "Jess"));
 ```
+## [🔑] Map / HashMap / LinkedHashMap / ConcurrentHashMap / TreeMap
+#### Puó sembrare difficile, ma vi posso garantire che HashMap é, non solo facilissimo ma anche molto utile.
+#### Prima vorrei spiegare a cosa serve e poi vi faccio degli esempi.
+####
+#### HashMap é una variabile di tipo "lista" (Tra tante virgolette, perché non é del tutto una lista), 
+#### che serve a dare un valore ad una chiave.
+#### Spiegato meglio, dare un valore ad un altro valore.
+####
+#### Un esempio del suo uso, é la modalitá di KitPVP di Minecraft. Ripeto, molti di voi siete qui indirettamente per sapere piú su Spigot (Minecraft).
+#### Nel KitPVP, il "CombatLog" (Punire giocatori quando escono dal server durante un combattimento) potrebbe perfettamente utilizzare HashMap.
+#### Come? Qual é la chiave? Qual é il valore?
+#### Come? Semplice, quando si entra in comattimento, la chiave diventa il giocatore, il valore puó essere o una variabile di tipo **Boolean**¨per specificare che é in combattimento, o il valore puó essere perfettamente il tempo di rimanente del giocatore perche possa uscire dal combattimento.
+### ❔ Come si crea? 
+#### Stessa cosa della lista, solo che la lista puó solo lavorare con un valore, HashMap con due valori.
+```java
+Map<String, Boolean> in_combattimento = new HashMap<>();
+```
+### Possibili metodi da usare:
+	- Verificare se una chiave esiste
+ 	- Prendere chiave (Otteniamo il suo valore)
+  	- Prendere valore
+   	- Verificare se l'HashMap
+    	- Mettere un valore ad una chiave
+     	- Mettere un valore ad una chiave, solo se non esiste e viceversa.
+        - Ottenere, tramite iterazione, tutte le chiavi e/o valori.
+### ES:
+```java
+    public static void main(String[] args) {
+        
+    	HashMap<String, Integer> eta_persone = new HashMap<>();
+    	
+    	eta_persone.put("Joshet18", 18);
+    	eta_persone.put("Jess", 18);
+    	eta_persone.put("xHydra", 17);
+    	eta_persone.put("Ira", 11);
+    	
+    	System.err.println("Etá di Jess é " + eta_persone.get("Jess"));	
+    }
+```
+### RISULTATO:
+![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/e3e1d088-7dce-4499-9cce-61381e97adc6)
+
