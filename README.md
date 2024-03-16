@@ -331,7 +331,10 @@ List<Integer> lista = new ArrayList<>();
 	}
 ```
 ### Risultato:
-![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/a0cc9907-cc53-4674-b081-64ba2f8bb322)
+```dos
+Giocatori:
+[Joshet18, Ira, Jess, xHydra]
+```
 ### Possibili metodi da usare:
 	- Aggiungere
 	- Rimuovere
@@ -435,7 +438,6 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
 ```dos
 Etá di Jess é 18
 ```
-![image](https://github.com/Tyranzx/STELLAR_JAVA_COURSE/assets/70720366/e3e1d088-7dce-4499-9cce-61381e97adc6)
 #### Ok ma, é stato solo spiegato HashMap e Map, e il resto?
 #### Semplice: 
 	LinkedHashMap fa la stessa cosa di LinkedList, nodi collegati.
