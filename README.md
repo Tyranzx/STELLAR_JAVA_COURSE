@@ -518,7 +518,7 @@ Nomi con comparator: [Joshet18, Jess, Anna]
 Sistema: Windows 10
 ```
 ## [🐞] SCANNER
-#### Per coloro che hanno un po di conoscenze in bash, sapranno a cosa serve il comando "read". Scanner in java, in questo caso, é un read (di bash) solo che motlo piú "gestibile".
+#### Per coloro che hanno un po di conoscenze in bash, sapranno a cosa serve il comando "read". Scanner in java, in questo caso, é un read (di bash) solo che molto piú "gestibile".
 #### Scanner puó usarsi per molte piú cose, ma nell'esempio sotto ci sará un esempio pratico e veloce di come usare Scanner e capire a cosa serve.
 #### Potrebbe servirci, in caso di progetti di solo java, a fare un sistema di autenticazione.
 ```java
