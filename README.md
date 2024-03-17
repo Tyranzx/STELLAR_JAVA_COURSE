@@ -540,3 +540,29 @@ us@stellarsquad2024
 [*] Password salvata con successo.
 Password: us@stellarsquad2024
 ```
+## [🔨] StringBuilder // StringBuffer
+#### Entrambi sono uguali, fanno la stessa cosa, hanno la stessa funzione, solo che lavorano in modo diverso.
+#### Uno "StringBuilder" ci serve a creare di vari elementi di testo, un unico elemento.
+#### Per esempio, se in una lista abbiamo una lista di parole che se le uniamo formano una parola, StringBuilder ci serve ad unire tutti gli elementi e trasformarli in un unico "String".
+#### E a cosa ci serve? Per esempio, a creare una String, composta di vari elementi di diverse parti, StringBuilder, come ben dice il suo nome (Builder), costruisce una String.
+```java
+	public static void main(String[] args) {
+		
+		String[] parole = {"Ciao", "come", "va."};
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for (String ogniElemento : parole) {
+			sb.append(ogniElemento).append(" ");
+		}
+		
+		String risultato = sb.toString();
+		
+		System.out.println(risultato);
+		
+    }
+```
+## Risultato:
+```dos
+Ciao come va.
+```
