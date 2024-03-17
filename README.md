@@ -424,12 +424,12 @@ Map<String, Boolean> in_combattimento = new HashMap<>();
     public static void main(String[] args) {
         
     	HashMap<String, Integer> eta_persone = new HashMap<>();
-//	 👇 Mettiamo valori numerali a diverse chiavi di tipo String.
+//	  	    👇 Mettiamo valori numerali a diverse chiavi di tipo String.
     	eta_persone.put("Joshet18", 18);
     	eta_persone.put("Jess", 18);
     	eta_persone.put("xHydra", 17);
     	eta_persone.put("Ira", 11);
-//  	 ☝ In questo caso, dichiriamo le etá reali di diverse persone. 
+//  			 ☝ In questo caso, dichiriamo le etá reali di diversi nomi (persone). 
     	
     	System.err.println("Etá di Jess é " + eta_persone.get("Jess"));	
     }
