@@ -496,6 +496,24 @@ Nomi con Set: [Anna, Jess, Joshet18]
 		
 	}
 ```
+## Risultato:
 ```dos
 Nomi con comparator: [Joshet18, Jess, Anna]
+```
+## [🗜] PROPERTIES
+#### Properties é una classe che ci permette di interagire e/o gestire le proprietá del nostro sistema. 
+#### Puó sembrare poco utile, ma é utile per esempio con i file dentro il nostro sistema, o con configurazioni di java che vogliamo cambiare e/o ottenere.
+```java
+	public static void main(String[] args) {
+		
+        Properties prop = System.getProperties();
+        String sistema = prop.getProperty("os.name");
+        
+        System.out.println("Sistema: " + sistema);
+        
+    }
+```
+## Risultato:
+```dos
+Sistema: Windows 10
 ```
