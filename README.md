@@ -548,7 +548,7 @@ Password: us@stellarsquad2024
 ```java
 	public static void main(String[] args) {
 		
-		String[] parole = {"Ciao", "come", "va."};
+		String[] parole = {"Ciao,", "come", "va?"};
 		
 		StringBuilder sb = new StringBuilder();
 		
@@ -564,5 +564,5 @@ Password: us@stellarsquad2024
 ```
 ## Risultato:
 ```dos
-Ciao come va.
+Ciao, come va?
 ```
