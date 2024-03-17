@@ -524,10 +524,10 @@ Sistema: Windows 10
 ```java
 public static void main(String[] args) {
         System.out.println("Inserisci password: ");
+// 	☝ Messaggio per capire cosa fare.
+        Scanner scanner = new Scanner(System.in); // 👈 "System.in" inteso come input che mettiamo noi.
 
-        Scanner scanner = new Scanner(System.in);
-
-        String password_inserita = scanner.next();
+        String password_inserita = scanner.next(); // 👈 Salvare in una variabile di testo, quello inserito
         
         System.out.println("[*] Password salvata con successo.");
         System.out.println("Password: "+password_inserita);
