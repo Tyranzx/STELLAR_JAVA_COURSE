@@ -400,8 +400,7 @@ List<String> lista = new ArrayList<>(Arrays.asList("Joshet18", "Jess"));
 #### Prima vorrei spiegare a cosa serve e poi vi faccio degli esempi.
 ####
 #### HashMap é una variabile di tipo "lista" (Tra tante virgolette, perché non é del tutto una lista), 
-#### che serve a dare un valore ad una chiave.
-#### Spiegato meglio, dare un valore ad un altro valore.
+#### che serve a dare un valore ad una chiave. Spiegato meglio, dare un variabile ad un altra variabile.
 ####
 #### Un esempio del suo uso, é la modalitá di KitPVP di Minecraft. Ripeto, molti di voi siete qui indirettamente per sapere piú su Spigot (Minecraft).
 #### Nel KitPVP, il "CombatLog" (Punire giocatori quando escono dal server durante un combattimento) potrebbe perfettamente utilizzare HashMap.
