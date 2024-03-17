@@ -486,8 +486,7 @@ Nomi con Set: [Anna, Jess, Joshet18]
 	public static void main(String[] args) {
 
 		Comparator<String> comparator = (a, b) -> b.compareTo(a);
-		
-		TreeSet<String> nomi = new TreeSet<>();
+		TreeSet<String> nomi = new TreeSet<>(comparator);
 		
 		nomi.add("Jess");
 		nomi.add("Anna");
@@ -498,5 +497,5 @@ Nomi con Set: [Anna, Jess, Joshet18]
 	}
 ```
 ```dos
-Nomi con comparator: [Anna, Jess, Joshet18]
+Nomi con comparator: [Joshet18, Jess, Anna]
 ```
