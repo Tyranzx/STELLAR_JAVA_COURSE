@@ -1,6 +1,6 @@
-# ☕ "Corso" di java | by StellarSquad 👨‍🎨
+# ☕ Doc di java | by StellarSquad 👨‍🎨
 
-#### Corso scritto & visuale, senza video possibilmente, di java fatto da StellarSquad.
+#### Documentazione veloce di java, scritto & visuale, senza video possibilmente, da StellarSquad.
 #### Qui vi daremo, il significato e utilizzo di vari concetti importanti da tener conto come differenze, soluzioni, ecc.
 
 #### Come ben sapete, java puó essere utilizzato anche in ambienti web, peró non é un argomento che tocheremo in questo corso, bensí, insegneremo a come diffendersi con questo linguaggio o per lo meno, saperne di piú.
