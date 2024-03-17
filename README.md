@@ -546,21 +546,23 @@ Password: us@stellarsquad2024
 #### Per esempio, se in una lista abbiamo una lista di parole che se le uniamo formano una parola, StringBuilder ci serve ad unire tutti gli elementi e trasformarli in un unico "String".
 #### E a cosa ci serve? Per esempio, a creare una String, composta di vari elementi di diverse parti, StringBuilder, come ben dice il suo nome (Builder), costruisce una String.
 ```java
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
-		String[] parole = {"Ciao,", "come", "va?"};
+	String[] parole = {"Ciao,", "come", "va?"}; // 👈 Una lista con cui lavorare
 		
-		StringBuilder sb = new StringBuilder();
+	StringBuilder sb = new StringBuilder(); // 👈 Istanziare StringBuilder
 		
-		for (String ogniElemento : parole) {
-			sb.append(ogniElemento).append(" ");
-		}
+	for (String ogniElemento : parole) { // 👈 Per correre ogni elemento della lista "parole"
+		sb.append(ogniElemento).append(" ");
+//		☝ sb, prende ogni elemento ed sb prende uno spazio.
+//		   Lo spazio si é messo perché se non ci fosse il risultato sarebbe: Ciao,comeva?		
+	}
 		
-		String risultato = sb.toString();
+	String risultato = sb.toString(); // 👈 Potrebbe mandarsi direttamente senza creare questo
 		
-		System.out.println(risultato);
+	System.out.println(risultato); // 👈 Mandare in console
 		
-    }
+}
 ```
 ## Risultato:
 ```dos
