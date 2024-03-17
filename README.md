@@ -405,7 +405,7 @@ List<String> lista = new ArrayList<>(Arrays.asList("Joshet18", "Jess"));
 #### Un esempio del suo uso, é la modalitá di KitPVP di Minecraft. Ripeto, molti di voi siete qui indirettamente per sapere piú su Spigot (Minecraft).
 #### Nel KitPVP, il "CombatLog" (Punire giocatori quando escono dal server durante un combattimento) potrebbe perfettamente utilizzare HashMap.
 #### Come? Qual é la chiave? Qual é il valore?
-#### Come? Semplice, quando si entra in comattimento, la chiave diventa il giocatore, il valore puó essere o una variabile di tipo **Boolean**¨per specificare che é in combattimento, o il valore puó essere perfettamente il tempo di rimanente del giocatore perche possa uscire dal combattimento.
+#### Come? Semplice, quando si entra in comattimento, la chiave diventa il giocatore, il valore puó essere o una variabile di tipo **Boolean** ¨per specificare se é o no in combattimento", o il valore puó essere perfettamente il tempo di rimanente del giocatore perche possa uscire dal combattimento, normalmente di tipo double.
 ### ❔ Come si crea? 
 #### Stessa cosa della lista, solo che la lista puó solo lavorare con un valore, HashMap con due valori.
 ```java
