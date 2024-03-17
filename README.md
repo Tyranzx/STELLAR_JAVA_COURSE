@@ -444,3 +444,23 @@ Etá di Jess é 18
 	ConcurrentHashMap é opzionale, lo si puó usare per evitare errori di concorrenza
  	(Concorrenza: Quando una lista é giá utilizzata in un thread diverso).
 	TreeMap é sempre HashMap, solo che ordinato in modo di albero, quindi elementi posizionati in ordine alfabetico
+
+## [🍄] Set / HashSet / TreeSet
+#### Puó sembrare difficile pure questo, ma sopra o sotto, avró lasciato la lista del contenuto e in piú a cosa servono (Una spiegazione veloce). In caso servisse un esempio e/o definizione piú dettagliata esistono queste sezioni.
+#### Set é come Map, HashSet come HashMap, si capisce? Ok, non spiega niente, ma era solo per far capire che sono simili almeno in quello.
+### ❔ Cos'é e/o a cosa serve "Set"? 
+#### Set, insieme ad HashSet, sono come le liste normali. Solo che in questo caso, si usa Set per evitare che si ripetano certi elementi.
+```java
+	public static void main(String[] args) {
+		List<String> nomi = new ArrayList<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
+		Set<String> nomi2 = new HashSet<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
+		
+		System.out.println("Con liste normali: "+nomi);
+		System.out.println("Con hashSet: "+nomi2);
+	}
+```
+### Risultato:
+```dos
+Con liste normali: [Luca, Luca, Joshet18, Jess]
+Con hashSet: [Joshet18, Luca, Jess]
+```
