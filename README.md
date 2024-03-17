@@ -507,8 +507,8 @@ Nomi con comparator: [Joshet18, Jess, Anna]
 public static void main(String[] args) {
 		
         Properties prop = System.getProperties();
-        String sistema = prop.getProperty("os.name");
-        
+        String sistema = prop.getProperty("os.name");  // 👈 Prendere la proprietá "operation system name"
+// 	☝ Di tipo testo chiamato Sistema.
         System.out.println("Sistema: " + sistema);
         
 }
