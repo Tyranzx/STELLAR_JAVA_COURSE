@@ -449,7 +449,7 @@ Etá di Jess é 18
 #### Puó sembrare difficile pure questo, ma sopra o sotto, avró lasciato la lista del contenuto e in piú a cosa servono (Una spiegazione veloce). In caso servisse un esempio e/o definizione piú dettagliata esistono queste sezioni.
 #### Set é come Map, HashSet come HashMap, si capisce? Ok, non spiega niente, ma era solo per far capire che sono simili almeno in quello.
 ### ❔ Cos'é e/o a cosa serve "Set"? 
-#### Set, insieme ad HashSet, sono come le liste normali. Solo che in questo caso, si usa Set per evitare che si ripetano certi elementi.
+#### Set, insieme ad HashSet, sono come le liste normali. Solo che in questo caso, si usa Set per evitare che si ripetano gli elementi, per evitare i duplicati.
 ```java
 	public static void main(String[] args) {
 		List<String> nomi = new ArrayList<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
@@ -464,3 +464,5 @@ Etá di Jess é 18
 Con liste normali: [Luca, Luca, Joshet18, Jess]
 Con hashSet: [Joshet18, Luca, Jess]
 ```
+### ❔ TreeSet?
+#### Come TreeMap, TreeSet serve ad ordinare gli elementi, in ordine alfabetico, a differenza dell'HashSet normale.
