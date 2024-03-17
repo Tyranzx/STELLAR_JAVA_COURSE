@@ -466,3 +466,33 @@ Con hashSet: [Joshet18, Luca, Jess]
 ```
 ### ❔ TreeSet?
 #### Come TreeMap, TreeSet serve ad ordinare gli elementi, in ordine alfabetico, a differenza dell'HashSet normale.
+```java
+		TreeSet<String> nomi = new TreeSet<>();
+		
+		nomi.add("Joshet18");
+		nomi.add("Anna");
+		nomi.add("Jess");
+		
+		System.out.println("Nomi con Set: "+nomi);
+```
+### Risultato:
+```dos
+Nomi con Set: [Anna, Jess, Joshet18]
+```
+## [🃏] Comparator<?>
+#### Comparator a cosa serve? Molto semplice e veloce:
+```java
+	public static void main(String[] args) {
+
+		Comparator<String> comparator = (a, z) -> z.compareTo(a);
+		
+		TreeSet<String> nomi = new TreeSet<>();
+		
+		nomi.add("Jess");
+		nomi.add("Anna");
+		nomi.add("Joshet18");
+		
+		System.out.println("Nomi senza comparator: "+nomi);
+		
+	}
+```
