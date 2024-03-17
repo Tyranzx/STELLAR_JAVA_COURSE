@@ -480,11 +480,12 @@ Con hashSet: [Joshet18, Luca, Jess]
 Nomi con Set: [Anna, Jess, Joshet18]
 ```
 ## [🃏] Comparator<?>
-#### Comparator a cosa serve? Molto semplice e veloce:
+#### Comparator a cosa serve? Molto semplice e veloce: É una variabile per definire l'ordinamento di elementi.
+#### Comparator lo puoi usare con Liste ma pure con Set e/o variabili di tipo Tree... qui un esempio:
 ```java
 	public static void main(String[] args) {
 
-		Comparator<String> comparator = (a, z) -> z.compareTo(a);
+		Comparator<String> comparator = (a, b) -> b.compareTo(a);
 		
 		TreeSet<String> nomi = new TreeSet<>();
 		
@@ -492,7 +493,10 @@ Nomi con Set: [Anna, Jess, Joshet18]
 		nomi.add("Anna");
 		nomi.add("Joshet18");
 		
-		System.out.println("Nomi senza comparator: "+nomi);
+		System.out.println("Nomi con comparator: "+nomi);
 		
 	}
+```
+```dos
+Nomi con comparator: [Anna, Jess, Joshet18]
 ```
