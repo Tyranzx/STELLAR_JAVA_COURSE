@@ -504,14 +504,14 @@ Nomi con comparator: [Joshet18, Jess, Anna]
 #### Properties é una classe che ci permette di interagire e/o gestire le proprietá del nostro sistema. 
 #### Puó sembrare poco utile, ma é utile per esempio con i file dentro il nostro sistema, o con configurazioni di java che vogliamo cambiare e/o ottenere.
 ```java
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
         Properties prop = System.getProperties();
         String sistema = prop.getProperty("os.name");
         
         System.out.println("Sistema: " + sistema);
         
-    }
+}
 ```
 ## Risultato:
 ```dos
@@ -522,7 +522,7 @@ Sistema: Windows 10
 #### Scanner puó usarsi per molte piú cose, ma nell'esempio sotto ci sará un esempio pratico e veloce di come usare Scanner e capire a cosa serve.
 #### Potrebbe servirci, in caso di progetti di solo java, a fare un sistema di autenticazione.
 ```java
-	public static void main(String[] args) {
+public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci password: ");
 
@@ -530,7 +530,7 @@ Sistema: Windows 10
         
         System.out.println("[*] Password salvata con successo.");
         System.out.println("Password: "+password_inserita);
-    }
+}
 ```
 ## Risultato:
 ```dos
