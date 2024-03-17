@@ -523,8 +523,9 @@ Sistema: Windows 10
 #### Potrebbe servirci, in caso di progetti di solo java, a fare un sistema di autenticazione.
 ```java
 public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci password: ");
+
+        Scanner scanner = new Scanner(System.in);
 
         String password_inserita = scanner.next();
         
