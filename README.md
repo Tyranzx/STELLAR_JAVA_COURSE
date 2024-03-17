@@ -451,13 +451,13 @@ Etá di Jess é 18
 ### ❔ Cos'é e/o a cosa serve "Set"? 
 #### Set, insieme ad HashSet, sono come le liste normali. Solo che in questo caso, si usa Set per evitare che si ripetano gli elementi, per evitare i duplicati.
 ```java
-	public static void main(String[] args) {
-		List<String> nomi = new ArrayList<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
-		Set<String> nomi2 = new HashSet<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
+public static void main(String[] args) {
+	List<String> nomi = new ArrayList<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
+	Set<String> nomi2 = new HashSet<>(Arrays.asList("Luca", "Luca", "Joshet18", "Jess"));
 		
-		System.out.println("Con liste normali: "+nomi);
-		System.out.println("Con hashSet: "+nomi2);
-	}
+	System.out.println("Con liste normali: "+nomi);
+	System.out.println("Con hashSet: "+nomi2);
+}
 ```
 ### Risultato:
 ```dos
