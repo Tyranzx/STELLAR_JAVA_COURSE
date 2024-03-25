@@ -653,3 +653,21 @@ public static void main(String[] args) {
 ```dos
 Random UUID: 0836979a-ecff-455e-aa82-0d3bb5a7acf9
 ```
+## [🕹] Function<?,?>
+### Una semplice spiegazione per "Function", é un metodo fatto variabile (? ||Non del tutto|| ?)
+### Bisogna specificare il tipo di variabile con il quale vogliamo lavorare.
+```java
+	private static Function<String, String> primo = primo -> {
+		String ultimo = primo+" come va";
+		return ultimo;
+	};
+	
+	public static void main(String[] args) {
+		String res = primo.apply("Ciao");
+		System.out.println(res);
+	}
+```
+## Risultato:
+```dos
+Ciao come va
+```
