@@ -628,5 +628,15 @@ int r = new Random().nextInt(nomi.length); // 👈 La longitudine della lista "n
 ```dos
 Nome scelto aleatoriamente: Ira
 ```
-### PSD: Saluti ad Ira.
-
+## PSD: Saluti ad Ira.
+### O se per esempio, ci tocca usarlo con una Lista (ArrayList)
+```java
+public static void main(String[] args) {
+		List<String> nomi = new ArrayList<>(Arrays.asList("Joshet18", "Jess"));
+		int r = new Random().nextInt(nomi.size());
+		String nome = nomi.get(r);
+		System.out.println("Risultato: "+nome);	
+}
+```
+### É possibile prendere elementi aleatoriamente da una lista, prendere uno solo che si sceglierá "a caso". L'importante, perché funzioni, é che sia una collezione di elementi; HashMap, ArrayList, si possono usare insieme a Random.
+### Il limite del numero da scegliere (nextInt), dipende dal tipo di collezione.
