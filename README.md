@@ -572,11 +572,11 @@ Ciao, come va?
 ### Date e Calendar servono, entrambi, a prendere e successivamente dichiarare la data attuale, presa del sistema.
 ### Potrebbe essere usata per salvare la esecuzione (possibilmente) di una funzione o in generale, utilizzarlo per creare un valore di testo.
 ```java
-	 public static void main(String[] args){
-         Date date = new Date();
-         int anno = date.getYear() + 1900;
-         int day = date.getDate();
-         int mese = date.getMonth() + 1;
+public static void main(String[] args){
+         Date date = new Date(); // 👈 Istanza della classe "Date"
+         int anno = date.getYear() + 1900; // 👈 Per ottenere l'anno attuale, sommare sempre "1900"
+         int day = date.getDate(); // 👈 Non si prende "day" ma "date".
+         int mese = date.getMonth() + 1; // 👈 Si prende il mese e si somma per 1.
          System.out.println("Oggi é il: "+day+"/"+mese+"/"+anno);
  }
 ```
