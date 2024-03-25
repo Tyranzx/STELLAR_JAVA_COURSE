@@ -568,3 +568,21 @@ public static void main(String[] args) {
 ```dos
 Ciao, come va?
 ```
+## [📆] Date / Calendar
+### Date e Calendar servono, entrambi, a prendere e successivamente dichiarare la data attuale, presa del sistema.
+### Potrebbe essere usata per salvare la esecuzione (possibilmente) di una funzione o in generale, utilizzarlo per creare un valore di testo.
+```java
+	 public static void main(String[] args){
+         Date date = new Date();
+         int anno = date.getYear() + 1900;
+         int day = date.getDate();
+         int mese = date.getMonth() + 1;
+         System.out.println("Oggi é il: "+day+"/"+mese+"/"+anno);
+ }
+```
+
+```
+## Risultato:
+```dos
+Oggi é il: 25/3/2024
+```
