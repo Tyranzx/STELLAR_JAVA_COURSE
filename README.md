@@ -70,7 +70,7 @@
 
     String nome = "Jess";
 
-  // 👈 String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
+  // ☝ String nome .... é dentro la classe "Prova", é dentro la parentesi che apre e chiude la classe.
 
   } 
 ```
@@ -161,6 +161,43 @@ public void mandareMessaggio(String messaggio){
 // Una volta usato il metodo, manderá il messaggio specificato.
 ```
 #### Argomenti e parametri son due cose diverse, stiamo attenti. I parametri sono input richiesti, mentre gli argomenti sono gli input che hanno una posizione specifica e non sempre vengono richiesti.
+###
+###
+###
+# [🧩] CHIAVI
+## 💫[public|static|final|private|protected|default|abstract]
+### Le chiavi servono a "differenziare" metodi o variabili di diverse classi.
+### Per logica, se un complemento della classe é "privato", normalmente si intende che appartiene soloa a classe attuale.
+### Tutte queste chaivi sono importanti e bisogna capire il loro utilizzo.
+## 🔷 PUBLIC
+### Un metodo o variabile, quando é "public" (pubblico), é disponibile per il resto delle classi, non direttamente ma lascia la possibilitá di creare constructor (Lo si vedrá piú avanti) e praticamente piú flessibilitá tra le classi.
+```java
+public String nome = "Jess";
+```
+## 🕸 STATIC
+### Per variabili o metodi, "static" insieme a "public" offre la possibilitá di NON creare constructor (Lo si vedrá piú avanti), vuol dire che senza istanziare la classe alla quale vogliamo accedere, possiamo direttamente prendere gli elementi, metodi, o variabili che siano tipo static, da un'altra classe.
+### E se non fosse "public static" ma solO "static"? In quel caso, sarebbe "static" possibile e/o unicamente per metodi che siano giá di tipo "static", in cui, quei metodi, bisogna utilizzare una variabile esterna, la quale dev'essere static.
+### ES:
+```java
+private static final double soldi = 12.0;
+private static String messaggio(String msg){
+    return "oa, ho "+soldi;
+}
+```
+### In questo caso, se "soldi" non fosse di tipo "static" non potremo usarla nel notro metodo "messaggio".
+## 🔶FINAL
+### Quando si usa final in una variabile, per esempio, si puó specificare il suo contenuto, solo ed unicamente una volta.
+```java
+final String nome = "Jess";
+```
+### Possiamo creare, variabili, che siano di tipo final, e che non abbiano un contenuto specifico. Il problema di questo, é che solo dalla prossima volta che specificheremo il suo valore/contenuto, sará la prima ed ultima volta.
+```java
+private static final String nome;
+public static void main(String [] a){
+	nome = "Luca";
+	nome = "Jess"; // 👈 Errore
+}
+```
 ###
 ###
 ###
@@ -654,7 +691,7 @@ public static void main(String[] args) {
 Random UUID: 0836979a-ecff-455e-aa82-0d3bb5a7acf9
 ```
 ## [🕹] Function<?,?>
-### Una semplice spiegazione per "Function", é un metodo fatto variabile (? ||Non del tutto|| ?)
+### Una semplice spiegazione per "Function", é la creazione un metodo tramite variabile (? ||Non del tutto|| ?)
 ### Bisogna specificare il tipo di variabile con il quale vogliamo lavorare.
 ```java
 	private static Function<String, String> primo = primo -> {
