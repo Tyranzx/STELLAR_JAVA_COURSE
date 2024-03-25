@@ -585,3 +585,23 @@ public static void main(String[] args){
 ```dos
 Oggi é il: 25/3/2024
 ```
+### "Calendar" la stessa cosa, solo che la istanza si mette in un altro modo:
+```java
+	public static void main(String[] args) {
+		Calendar a = Calendar.getInstance();
+		
+		int giorno = a.getTime().getDate();
+		int anno = a.getTime().getYear() + 1900;
+		int mese = a.getTime().getMonth() + 1;
+		
+		System.out.println("Giorno: "+giorno);
+		System.out.println("Mese: "+mese);
+		System.out.println("Anno: "+anno);
+	}
+```
+## Risultato:
+```dos
+Giorno: 25
+Mese: 3
+Anno: 2024
+```
