@@ -605,3 +605,28 @@ Giorno: 25
 Mese: 3
 Anno: 2024
 ```
+## [🐸] RANDOM
+### Ipotizziamo che dobbiamo prendere un nome, in modo aleatorio (random), di una lista, di membri, per esempio.
+```java
+String[] nomi = {"Joshet18", "Jess", "Ira", "xHydra"};
+```
+### Utilizzando nextInt, possiamo dichiarare, il massimo del numero che riceveremo aleatoriamete quando andremo a prendere l'elemento.
+```java
+int r = new Random().nextInt(nomi.length); // 👈 La longitudine della lista "nomi"
+```
+### Si é creato, con "new Random().nextInt()" un numero, aleatorio, con un massimo che equivarrà alla lingitudine della lista.
+### Prende un numero aleatorio, quindi, da 0 a 3 (Sono 4 elementi ma si conta da 0, "Joshet18" é nella posizione "0").
+```java
+	public static void main(String[] args) {
+		String[] nomi = {"Joshet18", "Jess", "Ira", "xHydra"};
+		int r = new Random().nextInt(nomi.length);
+		String nome = nomi[r]; // 👈 Lo salviamo come valore di tipo String (testo)
+		System.out.println("Nome scelto aleatoriamente: "+nome);
+	}
+```
+## Risultato:
+```dos
+Nome scelto aleatoriamente: Ira
+```
+### PSD: Saluti ad Ira.
+
