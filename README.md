@@ -581,7 +581,6 @@ Ciao, come va?
  }
 ```
 
-```
 ## Risultato:
 ```dos
 Oggi é il: 25/3/2024
