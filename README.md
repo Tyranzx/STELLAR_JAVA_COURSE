@@ -640,3 +640,16 @@ public static void main(String[] args) {
 ```
 ### É possibile prendere elementi aleatoriamente da una lista, prendere uno solo che si sceglierá "a caso". L'importante, perché funzioni, é che sia una collezione di elementi; HashMap, ArrayList, si possono usare insieme a Random.
 ### Il limite del numero da scegliere (nextInt), dipende dal tipo di collezione.
+## [⬜] UUID
+### UUID stá per "universal unique identifier", ovvero, un identificatore personale, unico.
+### Nell'esempio successivo si usa UUID per prendere, un uuid aleatoriamente.
+```java
+	public static void main(String[] args) {
+		UUID uuid = UUID.randomUUID();
+		System.out.println("Random UUID: "+uuid);
+	}
+```
+## Risultato:
+```dos
+Random UUID: 0836979a-ecff-455e-aa82-0d3bb5a7acf9
+```
